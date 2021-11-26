@@ -118,7 +118,7 @@ calibration_pattern:
 
     # Mesh file (collada.dae or stl) for showing pattern on rviz. URI or regular path.
     # See: description_file
-    mesh_file: "package://simplebot_gazebo/models/charuco_800x600/charuco_800x600.dae"
+    mesh_file: "package://simplebot_gazebo/models/simplebot_charuco_800x600/simplebot_charuco_800x600.dae"
 
     # The border width from the edge corner to the pattern physical edge.
     # Used for 3D sensors and lidars.

@@ -30,7 +30,7 @@ pub = rospy.Publisher('~pattern', MarkerArray, queue_size=0, latch=True)
 
 # local packages
 
-model_name = 'charuco_800x600'
+model_name = 'simplebot_charuco_800x600'
 server = None
 menu_handler = MenuHandler()
 
@@ -42,7 +42,7 @@ def makeBox( msg, pose):
                    pose=pose,
                    scale=Vector3(x=1.0, y=1.0, z=1.0),
                    color=ColorRGBA(r=1, g=1, b=1, a=1))
-    marker.mesh_resource = 'package://simplebot_gazebo/models/charuco_800x600/charuco_800x600.dae'
+    marker.mesh_resource = 'package://simplebot_gazebo/models/simplebot_charuco_800x600/simplebot_charuco_800x600.dae'
     marker.mesh_use_embedded_materials = True
     return marker
 
