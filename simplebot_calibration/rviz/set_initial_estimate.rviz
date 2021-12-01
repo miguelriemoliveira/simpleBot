@@ -50,7 +50,7 @@ Visualization Manager:
       Z: 0
     Plane: XY
     Plane Cell Count: 10
-    Reference Frame: world
+    Reference Frame: base_link
     Value: true
   - Class: rviz/TF
     Enabled: true
@@ -90,7 +90,7 @@ Visualization Manager:
     Max Value: 1
     Median window: 5
     Min Value: 0
-    Name: front_left_camera-Image
+    Name: left_camera-Image
     Normalize Range: true
     Queue Size: 2
     Transport Hint: raw
@@ -100,57 +100,7 @@ Visualization Manager:
     Enabled: true
     Image Rendering: background and overlay
     Image Topic: /front_left_camera/rgb/image_raw
-    Name: front_left_camera-Camera
-    Overlay Alpha: 0.5
-    Queue Size: 2
-    Transport Hint: raw
-    Unreliable: false
-    Value: false
-    Visibility:
-      Value: true
-    Zoom Factor: 1
-  - Class: rviz/Image
-    Enabled: true
-    Image Topic: /front_right_camera/rgb/image_raw
-    Max Value: 1
-    Median window: 5
-    Min Value: 0
-    Name: front_right_camera-Image
-    Normalize Range: true
-    Queue Size: 2
-    Transport Hint: raw
-    Unreliable: false
-    Value: false
-  - Class: rviz/Camera
-    Enabled: true
-    Image Rendering: background and overlay
-    Image Topic: /front_right_camera/rgb/image_raw
-    Name: front_right_camera-Camera
-    Overlay Alpha: 0.5
-    Queue Size: 2
-    Transport Hint: raw
-    Unreliable: false
-    Value: false
-    Visibility:
-      Value: true
-    Zoom Factor: 1
-  - Class: rviz/Image
-    Enabled: true
-    Image Topic: /back_camera/rgb/image_raw
-    Max Value: 1
-    Median window: 5
-    Min Value: 0
-    Name: back_camera-Image
-    Normalize Range: true
-    Queue Size: 2
-    Transport Hint: raw
-    Unreliable: false
-    Value: false
-  - Class: rviz/Camera
-    Enabled: true
-    Image Rendering: background and overlay
-    Image Topic: /back_camera/rgb/image_raw
-    Name: back_camera-Camera
+    Name: left_camera-Camera
     Overlay Alpha: 0.5
     Queue Size: 2
     Transport Hint: raw
@@ -193,7 +143,7 @@ Visualization Manager:
   Global Options:
     Background Color: 255; 255; 255
     Default Light: true
-    Fixed Frame: world
+    Fixed Frame: base_link
     Frame Rate: 30
   Name: root
   Tools:
