@@ -245,7 +245,7 @@
             </mesh>
           </geometry>
         </visual>
-        <collision name='simplebot_charuco_800x600'>
+        <collision name='simplebot_charuco_collision_800x600'>
           <geometry>
             <mesh>
               <uri>model://simplebot_charuco_800x600/simplebot_charuco_800x600.dae</uri>
