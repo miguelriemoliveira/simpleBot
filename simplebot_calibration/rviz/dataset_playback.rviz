@@ -5,7 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /lidar3d-LabeledData1
+        - /lidar3d-LabeledData1/Namespaces1
       Splitter Ratio: 0.763005793094635
     Tree Height: 575
   - Class: rviz/Selection
@@ -26,7 +26,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: ""
+    SyncSource: left_camera-Labels-Image
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -262,8 +262,6 @@ Visualization Manager:
       Marker Topic: calibrate/labeled_data
       Name: lidar3d-LabeledData
       Namespaces:
-        0-lidar3d: true
-        0-lidar3d-limit_points: true
         2-lidar3d: true
         2-lidar3d-limit_points: true
       Queue Size: 10
@@ -297,7 +295,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 4.272078037261963
+      Distance: 3.6519367694854736
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -305,17 +303,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.4610344171524048
-        Y: -0.16655808687210083
+        X: 0.4581766128540039
+        Y: -0.2255423665046692
         Z: 1.9064173102378845e-06
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.43479692935943604
+      Pitch: 0.38479697704315186
       Target Frame: <Fixed Frame>
-      Yaw: 3.9021852016448975
+      Yaw: 3.892188310623169
     Saved:
       - Class: rviz/Orbit
         Distance: 4.057810306549072
