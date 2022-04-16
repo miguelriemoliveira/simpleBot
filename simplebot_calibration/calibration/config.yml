@@ -33,7 +33,7 @@
 description_file: "package://simplebot_description/urdf/simplebot.urdf.xacro"
 
 # The calibration framework requires a bagfile to extract the necessary data for the calibration.
-bag_file: "$ROS_BAGS/simplebot/test1.bag"
+bag_file: "/home/analtino/catkin_ws/src/simpleBot/bags/test1.bag"
 
 # The robot/system to be calibrated.
 robot_name: "simplebot"
@@ -88,6 +88,20 @@ sensors:
     child_link: "lidar3d_base_link"
     topic_name: "/lidar3d/points"
     modality: "lidar3d"
+
+  left-lidar2d:
+    link: "lidar3d"
+    parent_link: "base_link"
+    child_link: "left_base_scan"
+    topic_name: "/left_scan"
+    modality: "lidar2d"
+
+  rigth-lidar2d:
+    link: "lidar3d"
+    parent_link: "base_link"
+    child_link: "rigth_base_scan"
+    topic_name: "/right_scan"
+    modality: "lidar2d"
 
 
 # The calibration requires a detectable pattern.
